@@ -24,4 +24,4 @@ class Testing(unittest.TestCase):
         self.assertIsInstance(_min(self.array), int)
         
 if __name__ == "__main__":
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+    unittest.main()
