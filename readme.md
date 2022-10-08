@@ -19,4 +19,4 @@
 ![alt text](plot.png)
 
 # Status badge
-![example workflow](https://github.com/Thamgr/tp_hse_2/.github/workflows/github-actions-demo.yml/badge.svg)
+![example workflow](https://github.com/Thamgr/tp_hse_2/actions/workflows/github-actions-demo.yml/badge.svg)
