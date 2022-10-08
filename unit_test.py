@@ -15,7 +15,7 @@ class Testing(unittest.TestCase):
         self.assertTrue(_max(self.array) == max(self.array))
 
     def test_sum(self):
-        self.assertTrue(_sum(self.array) == sum(self.array) + 1)
+        self.assertTrue(_sum(self.array) == sum(self.array))
 
     def test_mul(self):
         self.assertTrue(_mul(self.array) == math.prod(self.array))
