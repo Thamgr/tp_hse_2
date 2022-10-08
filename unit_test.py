@@ -15,13 +15,13 @@ class Testing(unittest.TestCase):
         self.assertTrue(_max(self.array) == max(self.array))
 
     def test_sum(self):
-        self.assertTrue(_sum(self.array) == sum(self.array))
+        self.assertTrue(_sum(self.array) == sum(self.array) + 1)
 
     def test_mul(self):
         self.assertTrue(_mul(self.array) == math.prod(self.array))
         
     def test_int(self):
-        self.assertIsInstance(_min(self.array), float)
+        self.assertIsInstance(_min(self.array), int)
         
 if __name__ == "__main__":
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
