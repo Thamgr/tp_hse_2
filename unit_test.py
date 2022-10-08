@@ -21,7 +21,7 @@ class Testing(unittest.TestCase):
         self.assertTrue(_mul(self.array) == math.prod(self.array))
         
     def test_int(self):
-        self.assertIsInstance(_min(self.array), int)
+        self.assertIsInstance(_min(self.array), float)
         
 if __name__ == "__main__":
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
