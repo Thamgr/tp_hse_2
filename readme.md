@@ -17,3 +17,6 @@
 
 Реализовано построение графика зависимости времени выполнения функций от количества чисел в массиве
 ![alt text](plot.png)
+
+# Status badge
+![example workflow](https://github.com/Thamgr/tp_hse_2/.github/workflows/github-actions-demo.yml/badge.svg)
