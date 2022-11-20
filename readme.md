@@ -1,8 +1,12 @@
+Тут настроен CI !!!
+# Status badge
+![example workflow](https://github.com/Thamgr/tp_hse_2/actions/workflows/github-actions-demo.yml/badge.svg)
+
 # Описание файлов
 
 ## main.py 
 
-Реализованы функции чтения файла с числами, суммрования, умножения, поиска мниимума и максимума в массиве
+Реализованы функции чтения файла с числами, суммрования, умножения, поиска минимума и максимума в массиве
 
 ## unit_test.py
 
@@ -18,6 +22,3 @@
 Реализовано построение графика зависимости времени выполнения функций от количества чисел в массиве
 
 ![alt text](plot.png)
-
-# Status badge
-![example workflow](https://github.com/Thamgr/tp_hse_2/actions/workflows/github-actions-demo.yml/badge.svg)
